@@ -61,3 +61,9 @@
     "@types/styled-components": "^5.1.25"
   }
 }
+
+export interface Goal {
+  // ...
+
+  icon: string | null
+}

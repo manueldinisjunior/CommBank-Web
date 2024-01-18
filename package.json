@@ -36,7 +36,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --config .prettierrc 'src/**/*.ts*' --write"
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
   },
   "eslintConfig": {
     "extends": [

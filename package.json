@@ -34,10 +34,9 @@
   "build": "react-scripts build",
   "test": "react-scripts test",
   "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",  // Add this line
+  "deploy": "gh-pages -d build",
   "format": "prettier --config .prettierrc 'src/**/*.ts*' --write"
-  },
+},
   "eslintConfig": {
     "extends": [
       "react-app",
